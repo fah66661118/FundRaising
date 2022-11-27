@@ -1,0 +1,478 @@
+* {
+
+    margin: 0px;
+  
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  }
+
+  
+  
+  /*.body-text {
+  
+    float: left;
+  
+    font-family: "Montserrat", sans-serif;
+  
+    margin-top: 100px;
+    
+    padding: 35px;  
+  
+    word-spacing: normal;
+  }*/
+  
+  img{
+    max-width: 90%;  
+    margin-top: 0px;
+  }
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: #294378;
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
+  .heading {
+  
+    color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+  
+    font-size: 20px;
+  
+  }
+  
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: black;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: black;
+  
+  }
+  
+  /* To keep the images on the right */
+  .floatRight{
+      float:right;
+      margin-left:20px;
+      padding-left: 600px;
+  }
+  
+  .floatRightClear{
+      float:right;
+      clear:right;
+      margin-left:20px;
+  }
+  
+  /* All about Sections */
+  .fwh-slide{
+      height: 80vh;
+      background: #fff;
+      box-sizing: border-box;
+      padding: 35px;
+  }
+  
+  
+  .body-text0 {
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    padding: 35px;  
+    word-spacing: normal;
+      word-wrap: break-word;
+  }
+  
+  /* All about buttons */
+  .button {
+    background-color: #294378; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  
+  .button button1{
+      border-radius: 10px;}
+  
+  .buttons {
+    background-color: #fff; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .buttons1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border-radius: 20px;
+  }
+  
+  .buttons2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      border-radius: 20px;
+  }
+  
+  .fwh-slide1{
+      height: 50vh;
+      background: #294378;
+      box-sizing: border-box;
+      padding: 35px;
+      border-style: solid;
+  }
+  
+  .body-text1 {
+  
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  padding: 35px;  
+  word-spacing: normal;
+      color: white;
+      text-align: center;
+  }
+  
+  .fwh-slide2{
+      height: 50vh;
+      background: #fff;
+          box-sizing: border-box;
+          padding: 35px;    border-style: solid;
+  }
+  .body-text2 {
+  
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+  padding: 35px;  
+  word-spacing: normal;
+      text-align: center;
+  }
+  
+  
+  
+  .fwh-slide3{
+      height:  80vh;
+      background: #294378;
+          box-sizing: border-box;    padding: 35px;     border-style: solid;
+  }
+  
+  .body-text3 {
+  
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  padding: 35px;  
+  word-spacing: normal;
+      color: white;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row1 {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column1 {
+    flex: 50%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row2 {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column2 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  
+  .fwh-slide4{
+      height: 100vh;
+      background: #fff;
+          box-sizing: border-box;
+      padding: 50px;
+      border-style: solid;}
+  
+  .body-text4 {
+  
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1px;
+  padding: 35px;  
+  word-spacing: normal;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+      margin-top: 0;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+      margin-top: 0;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 0;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  .fwh-slide5{
+      height: 50vh;
+      background: #294378;
+      box-sizing: border-box;
+      padding: 35px;
+      border-style: solid;
+  }
+  
+  .body-text5 {
+  
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  padding: 35px;  
+  word-spacing: normal;
+      color: white;
+      text-align: center;
+  }
+  
+ 
+  
+   
+  
+  body{
+      background: #fcfcfc;
+      font-family: sans-serif;
+  }
+  
+  footer{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #111;
+      height: auto;
+      width: 100vw;
+      padding-top: 40px;
+      color: #fff;
+  }
+  
+  .footer-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .footer-content h3{
+      font-size: 2.1rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      line-height: 3rem;
+  }
+  
+  .footer-content p{
+      max-width: 500px;
+      margin: 10px auto;
+      line-height: 28px;
+      font-size: 14px;
+      color: #cacdd2;
+  }
+  
+  .socials{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 3rem 0;
+  }
+  
+  .socials li{
+      margin: 0 10px;
+  }
+  
+  .socials a{
+      text-decoration: none;
+      color: #fff;
+      border: 1.1px solid white;
+      padding: 5px;
+      border-radius: 50%;
+  }
+  
+  .socials a i{
+      font-size: 1.1rem;
+      width: 20px;
+      transition: color .4s ease;
+  }
+  
+  .socials a:hover i{
+      color: aqua;
+  }
+  
+  .footer-bottom{
+      background: #000;
+      width: 100vw;
+      padding: 20px;
+      padding-bottom: 40px;
+      text-align: center;
+  }
+  
+  .footer-bottom p{
+     float: left;
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+  }
+  .footer-bottom p a{
+    color:#44bae8;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .footer-bottom span{
+      text-transform: uppercase;
+      opacity: .4;
+      font-weight: 200;
+  }
+  
+  .footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+  
+  @media (max-width:500px) {
+  .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  }
+
+
+  
